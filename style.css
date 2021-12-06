@@ -1,0 +1,31 @@
+body{
+    background:url("sun.jpg");
+    background-size:contain;
+}
+
+h1{
+    font-size: 50px !important;
+}
+
+.btn-success:hover{
+    background-color: rgb(255, 174, 0);
+}
+
+#snapshot{
+    font-size: 22px;
+}
+
+canvas{
+    animation-name: bow;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bow{
+    from{box-shadow: 1.5px 1.5px 38px rgb(19, 163, 0);}
+    to{box-shadow: 1.5px 1.5px 38px rgb(255, 252, 85);}
+}
+
+#snapshot{
+    margin-bottom: 50px;
+}
